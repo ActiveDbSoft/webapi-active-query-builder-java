@@ -37,7 +37,7 @@ import java.util.List;
  * Defines a constraint for original query resultset values.
  */
 @ApiModel(description = "Defines a constraint for original query resultset values.")
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-22T16:57:14.000+06:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-31T16:54:02.057+06:00")
 public class Condition   {
   @JsonProperty("field")
   private String field = null;

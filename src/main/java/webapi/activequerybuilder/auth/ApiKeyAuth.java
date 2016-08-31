@@ -30,7 +30,7 @@ import webapi.activequerybuilder.Pair;
 import java.util.Map;
 import java.util.List;
 
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-22T16:57:14.000+06:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-31T16:54:02.057+06:00")
 public class ApiKeyAuth implements Authentication {
   private final String location;
   private final String paramName;

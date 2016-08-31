@@ -1,6 +1,8 @@
 
 # Transform
 
+SQL transformation parameters and commands.
+
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
@@ -11,6 +13,7 @@ Name | Type | Description | Notes
 **sortings** | [**List&lt;Sorting&gt;**](Sorting.md) |  |  [optional]
 **filter** | [**ConditionGroup**](ConditionGroup.md) |  |  [optional]
 **hiddenColumns** | [**List&lt;HiddenColumn&gt;**](HiddenColumn.md) |  |  [optional]
+
 
 
 

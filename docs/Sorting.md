@@ -1,6 +1,8 @@
 
 # Sorting
 
+Determines rows order in transformed query. If there aren&#39;t any sortings, the original query sorting is kept.
+
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
@@ -14,6 +16,7 @@ Name | Value
 ---- | -----
 ASC | &quot;asc&quot;
 DESC | &quot;desc&quot;
+
 
 
 

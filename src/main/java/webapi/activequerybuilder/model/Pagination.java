@@ -35,7 +35,7 @@ import io.swagger.annotations.ApiModelProperty;
  * Instructs to limit the number of rows in transformed query resultset taking limitations of original query into account. In other words, if original query contains row limitation clause, it will be wrapped into a derived table and additional row limitation clause will be added ontop.
  */
 @ApiModel(description = "Instructs to limit the number of rows in transformed query resultset taking limitations of original query into account. In other words, if original query contains row limitation clause, it will be wrapped into a derived table and additional row limitation clause will be added ontop.")
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-22T16:57:14.000+06:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-31T16:54:02.057+06:00")
 public class Pagination   {
   @JsonProperty("skip")
   private Integer skip = null;

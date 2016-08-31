@@ -39,7 +39,7 @@ import webapi.activequerybuilder.model.ConditionGroup;
  * Group of conditions joined with the same boolean operator.
  */
 @ApiModel(description = "Group of conditions joined with the same boolean operator.")
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-22T16:57:14.000+06:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-31T16:54:02.057+06:00")
 public class ConditionGroup   {
   /**
    * Type of junction. All = AND; Any = OR.

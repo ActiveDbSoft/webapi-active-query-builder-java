@@ -35,7 +35,7 @@ import io.swagger.annotations.ApiModelProperty;
  * Instructs to exclude some columns of original query from the SELECT list of transformed query.
  */
 @ApiModel(description = "Instructs to exclude some columns of original query from the SELECT list of transformed query.")
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-22T16:57:14.000+06:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-31T16:54:02.057+06:00")
 public class HiddenColumn   {
   @JsonProperty("field")
   private String field = null;

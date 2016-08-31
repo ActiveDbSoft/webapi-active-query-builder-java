@@ -1,6 +1,8 @@
 
 # Condition
 
+Defines a constraint for original query resultset values.
+
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
@@ -31,6 +33,7 @@ IN | &quot;In&quot;
 NOTIN | &quot;NotIn&quot;
 LIKE | &quot;Like&quot;
 NOTLIKE | &quot;NotLike&quot;
+
 
 
 

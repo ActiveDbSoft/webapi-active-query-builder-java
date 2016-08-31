@@ -35,7 +35,7 @@ import io.swagger.annotations.ApiModelProperty;
  * Returns transformed SQL text in case of successful transformation. Otherwise returns error message.
  */
 @ApiModel(description = "Returns transformed SQL text in case of successful transformation. Otherwise returns error message.")
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-22T16:57:14.000+06:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-31T16:54:02.057+06:00")
 public class TransformResult   {
   @JsonProperty("sql")
   private String sql = null;

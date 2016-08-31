@@ -1,6 +1,8 @@
 
 # ConditionGroup
 
+Group of conditions joined with the same boolean operator.
+
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
@@ -17,6 +19,7 @@ AND | &quot;And&quot;
 OR | &quot;Or&quot;
 ANY | &quot;Any&quot;
 ALL | &quot;All&quot;
+
 
 
 

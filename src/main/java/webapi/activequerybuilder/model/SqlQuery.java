@@ -35,7 +35,7 @@ import io.swagger.annotations.ApiModelProperty;
  * Information about SQL query and it&#39;s context.
  */
 @ApiModel(description = "Information about SQL query and it's context.")
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-22T16:57:14.000+06:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-31T16:54:02.057+06:00")
 public class SqlQuery   {
   @JsonProperty("guid")
   private String guid = null;

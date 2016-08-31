@@ -42,7 +42,7 @@ import webapi.activequerybuilder.model.Totals;
  * SQL transformation parameters and commands.
  */
 @ApiModel(description = "SQL transformation parameters and commands.")
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-22T16:57:14.000+06:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-31T16:54:02.057+06:00")
 public class Transform   {
   @JsonProperty("Guid")
   private String guid = null;

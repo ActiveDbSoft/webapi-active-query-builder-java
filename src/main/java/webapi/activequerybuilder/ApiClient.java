@@ -65,7 +65,7 @@ import webapi.activequerybuilder.auth.HttpBasicAuth;
 import webapi.activequerybuilder.auth.ApiKeyAuth;
 import webapi.activequerybuilder.auth.OAuth;
 
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-22T16:57:14.000+06:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-31T16:54:02.057+06:00")
 public class ApiClient {
   private Map<String, String> defaultHeaderMap = new HashMap<String, String>();
   private String basePath = "https://webapi.activequerybuilder.com";

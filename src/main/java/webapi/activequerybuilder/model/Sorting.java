@@ -35,7 +35,7 @@ import io.swagger.annotations.ApiModelProperty;
  * Determines rows order in transformed query. If there aren&#39;t any sortings, the original query sorting is kept.
  */
 @ApiModel(description = "Determines rows order in transformed query. If there aren't any sortings, the original query sorting is kept.")
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-22T16:57:14.000+06:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-31T16:54:02.057+06:00")
 public class Sorting   {
   @JsonProperty("field")
   private String field = null;
