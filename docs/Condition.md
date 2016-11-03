@@ -31,8 +31,12 @@ BETWEEN | &quot;Between&quot;
 NOTBETWEEN | &quot;NotBetween&quot;
 IN | &quot;In&quot;
 NOTIN | &quot;NotIn&quot;
-LIKE | &quot;Like&quot;
-NOTLIKE | &quot;NotLike&quot;
+CONTAINS | &quot;Contains&quot;
+DOESNTCONTAIN | &quot;DoesntContain&quot;
+STARTSWITH | &quot;StartsWith&quot;
+DOESNTSTARTWITH | &quot;DoesntStartWith&quot;
+ENDSWITH | &quot;EndsWith&quot;
+DOESNTENDWITH | &quot;DoesntEndWith&quot;
 
 
 
