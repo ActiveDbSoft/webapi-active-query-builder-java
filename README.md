@@ -45,16 +45,44 @@ import java.util.*;
 public class ActiveQueryBuilderApiExample {
 
     public static void main(String[] args) {
-        
+        String metadataGuid = "b3207f4f-b1f4-4dc2-979b-7724ed2d0221";
+        String sql = "Select customer_id, first_name From customer";
+
         ActiveQueryBuilderApi apiInstance = new ActiveQueryBuilderApi();
         SqlQuery query = new SqlQuery(); // SqlQuery | Information about SQL query and it's context.
-        try {
-            List<QueryColumn> result = apiInstance.getQueryColumnsPost(query);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling ActiveQueryBuilderApi#getQueryColumnsPost");
-            e.printStackTrace();
-        }
+        query.setGuid(metadataGuid);
+        query.setText(sql);
+
+        List<QueryColumn> columns = apiInstance.getQueryColumnsPost(query);
+        System.out.println(columns);
+        
+        Transform transform = new Transform();
+        transform.setGuid(metadataGuid);
+        transform.setSql(sql);
+
+        ConditionGroup filter = new ConditionGroup();
+
+        Condition condition = new Condition();
+        condition.setField("customer_id");
+        condition.setConditionOperator(Condition.ConditionOperatorEnum.GREATER);
+        condition.setValues(Arrays.asList("10"));
+
+        filter.setConditions(Arrays.asList(condition));
+
+        Pagination page = new Pagination();
+        page.setSkip(2);
+        page.setTake(3);
+
+        Sorting order = new Sorting();
+        order.setField("customer_id");
+        order.setOrder(Sorting.OrderEnum.ASC);
+
+        transform.setFilter(filter);
+        transform.setPagination(page);
+        transform.setSortings(Arrays.asList(order));
+
+        TransformResult result = api.transformSQLPost(transform);
+        System.out.println(result);
     }
 }
 
