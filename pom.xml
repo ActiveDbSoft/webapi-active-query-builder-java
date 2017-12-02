@@ -5,7 +5,7 @@
   <artifactId>webapi.activequerybuilder</artifactId>
   <packaging>jar</packaging>
   <name>webapi.activequerybuilder</name>
-  <version>1.1.2</version>
+  <version>1.1.8</version>
 
   <prerequisites>
     <maven>2.2.0</maven>

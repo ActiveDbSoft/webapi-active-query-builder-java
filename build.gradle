@@ -2,7 +2,7 @@ apply plugin: 'idea'
 apply plugin: 'eclipse'
 
 group = 'webapi.activequerybuilder'
-version = '1.1.2'
+version = '1.1.8'
 
 buildscript {
     repositories {
